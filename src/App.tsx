@@ -244,36 +244,6 @@ function Contact() {
             <div className="flex items-center gap-3"><MapPin className="h-5 w-5 text-cyan-300" /><div><p className="text-sm text-white/60">Location</p><p className="text-white/80">Richmond Hill, ON</p></div></div>
           </div>
         </Card>
-
-        <Card>
-          <form className="grid gap-4">
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <label className="mb-1 block text-sm text-white/60">First Name</label>
-                <input className="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 outline-none ring-cyan-500/30 placeholder-white/40 focus:ring-2" placeholder="John" />
-              </div>
-              <div>
-                <label className="mb-1 block text-sm text-white/60">Last Name</label>
-                <input className="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 outline-none ring-cyan-500/30 placeholder-white/40 focus:ring-2" placeholder="Doe" />
-              </div>
-            </div>
-            <div>
-              <label className="mb-1 block text-sm text-white/60">Email</label>
-              <input type="email" className="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 outline-none ring-cyan-500/30 placeholder-white/40 focus:ring-2" placeholder="john@example.com" />
-            </div>
-            <div>
-              <label className="mb-1 block text-sm text-white/60">Subject</label>
-              <input className="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 outline-none ring-cyan-500/30 placeholder-white/40 focus:ring-2" placeholder="Let's work together" />
-            </div>
-            <div>
-              <label className="mb-1 block text-sm text-white/60">Message</label>
-              <textarea rows={5} className="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 outline-none ring-cyan-500/30 placeholder-white/40 focus:ring-2" placeholder="Tell me about your project..." />
-            </div>
-            <button className="mt-2 inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-500/20 px-5 py-3 font-semibold text-cyan-300 ring-1 ring-cyan-500/30 transition hover:bg-cyan-500/30" type="button">
-              <span>Send Message</span>
-            </button>
-          </form>
-        </Card>
       </div>
     </Container>
   )
