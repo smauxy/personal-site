@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+body { background: #0b0f14; }
+
+/* Subtle radial cyan glows in the background */
+.bg-orbs {
+  position: fixed; inset: 0; pointer-events: none; z-index: -1;
+}
+.bg-orbs > span { position: absolute; filter: blur(120px); border-radius: 9999px; opacity: .6; }
+.orb-a { top: -8rem; left: -6rem; width: 24rem; height: 24rem; background: rgba(34,211,238,.25); }
+.orb-b { top: 35%; right: -4rem; width: 24rem; height: 24rem; background: rgba(34,211,238,.20); }
+.orb-c { bottom: 3rem; right: 6rem; width: 28rem; height: 28rem; background: rgba(34,211,238,.18); }
+
+.container { max-width: 72rem; }
+.glass { @apply rounded-2xl border border-white/5 bg-white/5 shadow-card backdrop-blur; }
+.badge { @apply inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm text-white/80; }
