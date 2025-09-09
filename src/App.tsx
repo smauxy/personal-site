@@ -34,8 +34,6 @@ function Hero() {
           <DownloadCloud className="h-5 w-5" /> Download Resume
         </a>
         <div className="flex gap-3 text-white/70">
-          <a aria-label="GitHub" href="#" className="rounded-lg p-2 ring-1 ring-white/10 transition hover:bg-white/10"><Github className="h-5 w-5"/></a>
-          <a aria-label="LinkedIn" href="#" className="rounded-lg p-2 ring-1 ring-white/10 transition hover:bg-white/10"><Linkedin className="h-5 w-5"/></a>
           <a aria-label="Email" href="mailto:ezou@uwaterloo.ca" className="rounded-lg p-2 ring-1 ring-white/10 transition hover:bg-white/10"><Mail className="h-5 w-5"/></a>
         </div>
       </div>
