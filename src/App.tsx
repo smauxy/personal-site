@@ -30,7 +30,7 @@ function Hero() {
         University of Waterloo Mathematics student seeking internship opportunities. Passionate about full‑stack development with experience in React, Node.js, and modern web technologies.
       </p>
       <div className="flex flex-wrap items-center justify-center gap-4">
-        <a href="/Eric_Zou_Resume.pdf" download className="inline-flex items-center gap-2 rounded-xl bg-cyan-500/20 px-5 py-3 font-semibold text-cyan-300 ring-1 ring-cyan-500/30 transition hover:bg-cyan-500/30">
+        <a href="/EricZResume-2025.pdf" download className="inline-flex items-center gap-2 rounded-xl bg-cyan-500/20 px-5 py-3 font-semibold text-cyan-300 ring-1 ring-cyan-500/30 transition hover:bg-cyan-500/30">
           <DownloadCloud className="h-5 w-5" /> Download Resume
         </a>
         <div className="flex gap-3 text-white/70">
