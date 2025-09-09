@@ -200,27 +200,27 @@ function Projects() {
         title="AI Crawler Service" 
         desc="Created an AI crawler service using Node.js to automatically extract WordPress articles, reducing manual content scraping and enhancing workflows." 
         tags={["Node.js","AI","WordPress","Web Scraping"]} 
-        image = "/projects/placeholder.jpg"/>
+        />
         <ProjectCard 
         title="OpenAI Integration API" 
         desc="Developed and deployed an API integrating OpenAI to rewrite and paraphrase articles, enhancing content quality and automation." 
         tags={["OpenAI","API","React","Node.js"]} 
-        image = "/projects/placeholder.jpg"/>
+        />
         <ProjectCard 
         title="Real Estate Data APIs" 
         desc="Designed and implemented C#/.NET APIs for real estate data calculations, eliminating manual operations and improving data access." 
         tags={["C#",".NET","BitBucket","Postman"]} 
-        image = "/projects/placeholder.jpg"/>
+        />
         <ProjectCard 
         title="2D Shooter Game" 
         desc="Built a 2D shooter game in Java demonstrating OOP principles and game development fundamentals." 
         tags={["Java","Game Development","OOP"]} 
-        image = "/projects/placeholder.jpg"/>
+        />
         <ProjectCard 
         title="Poker AI System" 
         desc="Led a team of 3 to create an advanced Poker AI in Python with machine learning algorithms for strategic decision making." 
         tags={["Python","AI","Machine Learning","Team Lead"]} 
-        image = "/projects/placeholder.jpg"/>
+        />
       </div>
     </Container>
   )
