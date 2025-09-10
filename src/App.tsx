@@ -149,26 +149,13 @@ function ProjectCard({
   title,
   desc,
   tags,
-  image,
 }: {
   title: string;
   desc: string;
   tags: string[];
-  image?: string;
 }) {
   return (
     <Card className="overflow-hidden p-0">
-      {image ? (
-        <img
-          src={image}
-          alt={title}
-          className="h-48 w-full object-cover"
-          loading="lazy"
-        />
-      ) : (
-        <div className="h-48 w-full bg-[radial-gradient(circle_at_30%_30%,rgba(59,130,246,.25),transparent_60%)]" />
-      )}
-
       <div className="space-y-3 p-6">
         <p className="text-lg font-semibold text-white">{title}</p>
         <p className="text-sm text-white/70">{desc}</p>
